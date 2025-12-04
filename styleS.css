@@ -1,5 +1,61 @@
-div{
-    background-color: aqua;
-    width: 100px;
+
+@media (max-width: 678px)
+{
+
+textarea{
+    width: 90%;
     height: 100px;
+    padding: 10px;
+    color: rgb(230, 215, 215);
+    border-radius: 8px;
+    outline: none;
+    border: 3px solid rgb(24, 243, 243);
+    resize: none;
+    background-color: #111;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(38, 180, 223);
+    color: #e7e5e5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body{
+    background-color: #9dc9c3;
+}
+
+}
+
+@media (min-width: 678px){
+    textarea{
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    color: rgb(230, 215, 215);
+    border-radius: 8px;
+    outline: none;
+    border: 3px solid rgb(24, 243, 243);
+    resize: none;
+    background-color: #111;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #3694ca;
+    color: #e7e5e5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(182, 147, 102);
+}
 }
